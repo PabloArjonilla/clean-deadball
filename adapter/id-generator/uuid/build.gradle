@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+ext.moduleName = 'pmac.example.uuid'
+
+dependencies {
+	implementation(
+		project(':usecase')
+	)
+}
